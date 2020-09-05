@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loginui/Login_ui_1/Signup_screen.dart';
 import 'package:loginui/Login_ui_1/constants1.dart';
 
 class LoginUI1 extends StatefulWidget {
@@ -8,48 +9,6 @@ class LoginUI1 extends StatefulWidget {
 
 class _LoginUI1State extends State<LoginUI1> {
   bool _rememberME = false;
-  Widget _buildEmailTF() {
-    return Container(
-      decoration: kBoxDecourationStyle,
-      height: 60.0,
-      alignment: Alignment.centerLeft,
-      child: TextField(
-        keyboardType: TextInputType.emailAddress,
-        style: TextStyle(color: Colors.white),
-        decoration: InputDecoration(
-          prefixIcon: Icon(
-            Icons.mail,
-            color: Colors.white,
-          ),
-          border: InputBorder.none,
-          hintText: "Enter your Email",
-          hintStyle: kHintTextStyle,
-        ),
-      ),
-    );
-  }
-
-  Widget _buildpassworsdTF() {
-    return Container(
-      decoration: kBoxDecourationStyle,
-      height: 60.0,
-      alignment: Alignment.centerLeft,
-      child: TextField(
-        obscureText: true,
-        keyboardType: TextInputType.emailAddress,
-        style: TextStyle(color: Colors.white),
-        decoration: InputDecoration(
-          prefixIcon: Icon(
-            Icons.lock,
-            color: Colors.white,
-          ),
-          border: InputBorder.none,
-          hintText: "Enter your Password",
-          hintStyle: kHintTextStyle,
-        ),
-      ),
-    );
-  }
 
   Widget _buildRememberMe() {
     return Container(
@@ -127,7 +86,10 @@ class _LoginUI1State extends State<LoginUI1> {
 
   Widget _buildSignUpbtn() {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => SignUp1()));
+      },
       child: RichText(
         text: TextSpan(children: [
           TextSpan(
@@ -230,11 +192,11 @@ class _LoginUI1State extends State<LoginUI1> {
                     children: <Widget>[
                       Text("Email", style: klableStyle),
                       SizedBox(height: 10.0),
-                      _buildEmailTF(),
+                      buildEmailTF(),
                       SizedBox(height: 30.0),
                       Text("Password", style: klableStyle),
                       SizedBox(height: 10.0),
-                      _buildpassworsdTF(),
+                      buildPasswordTF(),
                       _buildForgetPasswordbtn(),
                       _buildRememberMe(),
                       SizedBox(height: 30.0),
