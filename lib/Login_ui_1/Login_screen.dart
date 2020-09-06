@@ -73,7 +73,7 @@ class _LoginUI1State extends State<LoginUI1> {
             BoxShadow(
               color: Colors.black26,
               offset: Offset(0, 2),
-              blurRadius: 6.0,
+              blurRadius: 0.5,
             ),
           ],
           image: DecorationImage(

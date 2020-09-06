@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginui/Login_ui_1/Login_screen.dart';
+import 'Login_ui_2/Login2.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,8 +42,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             FlatButton(
               onPressed: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => LoginUI1()));
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => LoginScreen2()));
               },
               child: Text("1st page"),
             )
