@@ -6,7 +6,7 @@ Login page1
 
 Login page2
 
-<img src="https://user-images.githubusercontent.com/54079190/92408185-5eea8580-f15a-11ea-85ca-a6b48fa03b2d.jpg" width="23%"></img>            <img src="https://user-images.githubusercontent.com/54079190/92408222-6f026500-f15a-11ea-8797-28cc7c515f98.jpg" width="23%"></img> 
+<img src="https://user-images.githubusercontent.com/54079190/92408185-5eea8580-f15a-11ea-85ca-a6b48fa03b2d.jpg" width="23%"></img>            <img src="https://user-images.githubusercontent.com/54079190/92409521-8b080580-f15e-11ea-925a-b5f3fb836a6d.jpg" width="23%"></img> 
 
 
 A new Flutter application.
