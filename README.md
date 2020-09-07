@@ -3,11 +3,13 @@
 This is 21 days UI challange, where this is a self-initiated program where I stick to a habit for 21 days for learning Flutter frontend.
 
 Login page1
+
 Day-1 progress
 
 <img src="https://user-images.githubusercontent.com/54079190/92280447-07100c80-ef17-11ea-8ec1-347fcd952366.jpg" width="23%"></img>            <img src="https://user-images.githubusercontent.com/54079190/92311341-d346ec80-efd3-11ea-92ab-c8452a5143a4.jpg" width="23%"></img> 
 
 Login page2
+
 Day-2 progress
 
 <img src="https://user-images.githubusercontent.com/54079190/92408185-5eea8580-f15a-11ea-85ca-a6b48fa03b2d.jpg" width="23%"></img>            <img src="https://user-images.githubusercontent.com/54079190/92409521-8b080580-f15e-11ea-925a-b5f3fb836a6d.jpg" width="23%"></img> 
