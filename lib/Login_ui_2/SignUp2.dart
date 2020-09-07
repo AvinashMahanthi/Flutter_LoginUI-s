@@ -59,7 +59,8 @@ class _Signup2State extends State<Signup2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      body: Padding(
+        padding: EdgeInsets.all(30.0),
         child: Container(
           padding: EdgeInsets.all(10.0),
           height: double.infinity,
@@ -69,6 +70,7 @@ class _Signup2State extends State<Signup2> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 buildLogo(),
+                SizedBox(height: 30.0),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -80,13 +82,13 @@ class _Signup2State extends State<Signup2> {
                         color: Colors.grey,
                       ),
                     ),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 25.0),
                     kbuildTF("Name"),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 25.0),
                     kbuildTF("Email Address"),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 25.0),
                     kbuildPasswordTF(),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 25.0),
                     Container(
                       height: 60.0,
                       decoration: kBoxDecoration2,
@@ -100,9 +102,9 @@ class _Signup2State extends State<Signup2> {
                         ),
                       ),
                     ),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 25.0),
                     KbuildSignUpbtn(),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 20.0),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -113,7 +115,7 @@ class _Signup2State extends State<Signup2> {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
-                        SizedBox(height: 50.0),
+                        SizedBox(height: 40.0),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
@@ -137,7 +139,7 @@ class _Signup2State extends State<Signup2> {
                             )
                           ],
                         ),
-                        SizedBox(height: 30.0),
+                        SizedBox(height: 20.0),
                         _buildSIgnIntxt(),
                       ],
                     )
