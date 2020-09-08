@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'SignUp3.dart';
+import 'constants3.dart';
 
 class LoginPage3 extends StatefulWidget {
   @override
@@ -35,53 +36,6 @@ class _LoginPage3State extends State<LoginPage3> {
     );
   }
 
-  Widget _BuildPwdTF3() {
-    return Container(
-      padding: EdgeInsets.all(10.0),
-      child: TextField(
-        obscureText: true,
-        decoration: InputDecoration(
-            hintText: "Password",
-            hintStyle: TextStyle(color: Colors.grey),
-            border: InputBorder.none),
-      ),
-    );
-  }
-
-  Widget _buildEmailTF3() {
-    return Container(
-      padding: EdgeInsets.all(10.0),
-      decoration: BoxDecoration(
-        border: Border(bottom: BorderSide(color: Colors.grey[200])),
-      ),
-      child: TextField(
-        decoration: InputDecoration(
-          border: InputBorder.none,
-          hintText: "Email or phone number",
-          hintStyle: TextStyle(color: Colors.grey),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildSignUpBtn3() {
-    return GestureDetector(
-      onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => SignUP3()));
-      },
-      child: RichText(
-          text: TextSpan(children: [
-        TextSpan(
-            text: "don't have an account?",
-            style: TextStyle(fontSize: 18.0, color: Colors.black)),
-        TextSpan(
-            text: "SignIn",
-            style: TextStyle(fontSize: 18.0, color: Colors.orange)),
-      ])),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -103,49 +57,79 @@ class _LoginPage3State extends State<LoginPage3> {
             SizedBox(height: 80.0),
             _buildWelcomeTxt3(),
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(60.0),
-                    topRight: Radius.circular(60.0),
-                  ),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(height: 40.0),
-                      Container(
-                        padding: EdgeInsets.all(10.0),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15.0),
-                          boxShadow: [
-                            BoxShadow(
-                              offset: Offset(0, 2),
-                              blurRadius: 30.0,
-                              color: Color.fromRGBO(225, 95, 27, .3),
+              child: Stack(
+                children: <Widget>[
+                  Container(
+                    height: double.maxFinite,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(60.0),
+                        topRight: Radius.circular(60.0),
+                      ),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: <Widget>[
+                          SizedBox(height: 40.0),
+                          Container(
+                            padding: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(15.0),
+                              boxShadow: [
+                                BoxShadow(
+                                  offset: Offset(0, 2),
+                                  blurRadius: 30.0,
+                                  color: Color.fromRGBO(225, 95, 27, .3),
+                                ),
+                              ],
                             ),
-                          ],
-                        ),
-                        child: Column(
-                          children: <Widget>[
-                            _buildEmailTF3(),
-                            _BuildPwdTF3(),
-                          ],
-                        ),
+                            child: Column(
+                              children: <Widget>[
+                                buildEmailTF3(),
+                                BuildPwdTF3(),
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: 30.0),
+                          GestureDetector(
+                            onTap: () {},
+                            child: Text("Forget password?",
+                                style: TextStyle(
+                                    fontSize: 18.0, color: Colors.black)),
+                          ),
+                          SizedBox(height: 60.0),
+                          buildLoginBtn3(),
+                          SizedBox(height: 50.0),
+                          bulildSocialmediaRow(),
+                          SizedBox(height: 50.0),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => SignUP3()));
+                            },
+                            child: RichText(
+                              text: TextSpan(children: [
+                                TextSpan(
+                                    text: "Forget password?",
+                                    style: TextStyle(color: Colors.black)),
+                                TextSpan(
+                                    text: "SignUp",
+                                    style: TextStyle(
+                                      color: Colors.orange[700],
+                                    ))
+                              ]),
+                            ),
+                          ),
+                        ],
                       ),
-                      SizedBox(height: 30.0),
-                      GestureDetector(
-                        onTap: () {},
-                        child: Text("Forget password?",
-                            style:
-                                TextStyle(fontSize: 18.0, color: Colors.black)),
-                      ),
-                    ],
+                    ),
                   ),
-                ),
+                ],
               ),
             )
           ],
