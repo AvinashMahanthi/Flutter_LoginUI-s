@@ -1,6 +1,6 @@
 # login UI
 
-This is 21 days UI challange, where this is a self-initiated program where I stick to a habit for 21 days for learning Flutter frontend.
+This is 21 days UI challange, where this is a self-initiated program where I stick to a habit for 21 days for learning Flutter frontend. Every day progress is been tweeted in twitter with #21DaysUIchallange.
 
 
 
@@ -14,12 +14,12 @@ Day-2 progress(Login page2)
 
 <img src="https://user-images.githubusercontent.com/54079190/92408185-5eea8580-f15a-11ea-85ca-a6b48fa03b2d.jpg" width="23%"></img>            <img src="https://user-images.githubusercontent.com/54079190/92409521-8b080580-f15e-11ea-925a-b5f3fb836a6d.jpg" width="23%"></img> 
 
-Day-2 Progress
+Day-3 Progress
 
 <img src="https://user-images.githubusercontent.com/54079190/92516454-e1467880-f232-11ea-89cc-a77eb1429f83.jpg" width="23%"></img> <img src="https://user-images.githubusercontent.com/54079190/92516399-cd027b80-f232-11ea-8915-5ed349f31a21.jpg" width="23%"></img> 
 
 
-A new Flutter application.
+
 
 ## Getting Started
 
