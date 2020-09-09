@@ -12,6 +12,7 @@ class _LoginPage3State extends State<LoginPage3> {
     return Padding(
       padding: const EdgeInsets.all(20.0),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
             "Login",
@@ -27,8 +28,8 @@ class _LoginPage3State extends State<LoginPage3> {
             "Welcome Back",
             style: TextStyle(
                 fontWeight: FontWeight.w600,
-                fontSize: 18.0,
-                color: Colors.white70),
+                fontSize: 20.0,
+                color: Colors.white),
           ),
           SizedBox(height: 30.0),
         ],
@@ -115,7 +116,7 @@ class _LoginPage3State extends State<LoginPage3> {
                             child: RichText(
                               text: TextSpan(children: [
                                 TextSpan(
-                                    text: "Forget password?",
+                                    text: "Don't have an account?",
                                     style: TextStyle(color: Colors.black)),
                                 TextSpan(
                                     text: "SignUp",

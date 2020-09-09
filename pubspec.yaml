@@ -50,6 +50,7 @@ flutter:
     - google.png
     - Ui-2-Logo.jpg
     - twitter.png
+    - 768px-Facebook_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

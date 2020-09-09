@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loginui/Login_ui_1/Login_screen.dart';
 import 'package:loginui/Login_ui_3/Login3.dart';
+import 'Login_ui_4/Login4.dart';
 import 'Login_ui_2/Login2.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter UI kit'),
     );
   }
 }
@@ -44,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             FlatButton(
               onPressed: () {
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => LoginPage3()));
+                    MaterialPageRoute(builder: (context) => LoginPage4()));
               },
               child: Text("1st page"),
             )
