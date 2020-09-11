@@ -52,6 +52,10 @@ flutter:
     - twitter.png
     - 768px-Facebook_icon.png
     - day-5_image.png
+    - background.png
+    - clock.png
+    - light-1.png
+    - light-2.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
