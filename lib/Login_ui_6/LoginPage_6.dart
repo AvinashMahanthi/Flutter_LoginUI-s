@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:loginui/Login_ui_6/SignUp_6.dart';
 import 'constants.dart';
+import 'package:loginui/FadeAnimation.dart';
 
 class LoginPage6 extends StatefulWidget {
   @override
@@ -108,30 +109,33 @@ class _LoginPage6State extends State<LoginPage6> {
                   padding: const EdgeInsets.all(30.0),
                   child: Column(
                     children: <Widget>[
-                      Container(
-                        padding: EdgeInsets.all(5.0),
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(10.0),
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Color.fromRGBO(143, 148, 251, 3),
-                                  blurRadius: 18.0,
-                                  offset: Offset(0, 10))
-                            ]),
-                        child: Column(
-                          children: <Widget>[
-                            _buildEmailTf6(),
-                            _buildPwdTF6(),
-                          ],
+                      FadeAnimation(
+                        1.3,
+                        Container(
+                          padding: EdgeInsets.all(5.0),
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(10.0),
+                              boxShadow: [
+                                BoxShadow(
+                                    color: Color.fromRGBO(143, 148, 251, 3),
+                                    blurRadius: 18.0,
+                                    offset: Offset(0, 10))
+                              ]),
+                          child: Column(
+                            children: <Widget>[
+                              _buildEmailTf6(),
+                              _buildPwdTF6(),
+                            ],
+                          ),
                         ),
                       ),
                       SizedBox(height: 30.0),
-                      _buildForgetpwdBtn6(),
+                      FadeAnimation(1.5, _buildForgetpwdBtn6()),
                       SizedBox(height: 30.0),
                       buildLoginBtn6("Login"),
                       SizedBox(height: 30.0),
-                      _buildSignUptxt6(),
+                      FadeAnimation(1.6, _buildSignUptxt6()),
                     ],
                   ),
                 )

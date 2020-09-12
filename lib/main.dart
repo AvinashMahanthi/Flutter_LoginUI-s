@@ -3,6 +3,7 @@ import 'package:loginui/Login_ui_1/Login_screen.dart';
 import 'package:loginui/Login_ui_3/Login3.dart';
 import 'package:loginui/Login_ui_5/LoginPage5.dart';
 import 'package:loginui/Login_ui_6/LoginPage_6.dart';
+import 'package:loginui/Login_ui_7/Login_page_7.dart';
 import 'Login_ui_4/Login4.dart';
 import 'Login_ui_2/Login2.dart';
 
@@ -46,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             FlatButton(
               onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => LoginPage6()));
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => Login7()));
               },
               child: Text("1st page"),
             )
