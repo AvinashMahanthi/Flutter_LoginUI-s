@@ -27,7 +27,12 @@ Day-5 Progress
 
 Day-6 Progress
 
-<img src="https://user-images.githubusercontent.com/54079190/92940124-5486ff00-f46c-11ea-94ef-b8c4afd5b1e5.jpg" width="23%"></img>             <img src="https://user-images.githubusercontent.com/54079190/92940723-14744c00-f46d-11ea-8b79-00bc41895926.jpg" width="23%"></img> 
+<img src="https://user-images.githubusercontent.com/54079190/92940124-5486ff00-f46c-11ea-94ef-b8c4afd5b1e5.jpg" width="23%"></img>             <img src="https://user-images.githubusercontent.com/54079190/92940723-14744c00-f46d-11ea-8b79-00bc41895926.jpg" width="23%"></img>
+
+
+Day-7 Progress
+
+<img src="https://user-images.githubusercontent.com/54079190/92991155-5b128680-f4ff-11ea-8361-27e9317919a6.jpg" width="23%"></img>             <img src="https://user-images.githubusercontent.com/54079190/92991162-6b2a6600-f4ff-11ea-8927-013fbc6949a3.jpg" width="23%"></img> 
 
 ## Getting Started
 
