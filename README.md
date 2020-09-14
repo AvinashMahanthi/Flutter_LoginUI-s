@@ -36,6 +36,8 @@ Day-7 Progress
 
 Day-8 Progress
 
+<img src="https://user-images.githubusercontent.com/54079190/93116197-94ebb480-f6da-11ea-981e-7ef39baa31be.png" width="23%"></img> <img src="https://user-images.githubusercontent.com/54079190/93116228-a1700d00-f6da-11ea-9734-714306ec5af7.png" width="23%"></img> 
+
 Day -9 Progress
 
 <img src="https://user-images.githubusercontent.com/54079190/93115852-155de580-f6da-11ea-8c5c-2b42c850a970.jpg" width="23%"></img>              <img src="https://user-images.githubusercontent.com/54079190/93115961-4211fd00-f6da-11ea-89a4-16d48500f38e.jpg" width="23%"></img> 
