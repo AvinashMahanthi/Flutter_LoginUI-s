@@ -139,7 +139,8 @@ class _SignUp4State extends State<SignUp4> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: <Widget>[
                               Image(
-                                  image: AssetImage("768px-Facebook_icon.png")),
+                                  image: AssetImage(
+                                      "assets/images/768px-Facebook_icon.png")),
                               SizedBox(width: 10.0),
                               Text(
                                 "Sign Up with facebook",

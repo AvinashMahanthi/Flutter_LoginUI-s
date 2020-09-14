@@ -124,7 +124,9 @@ class _LoginPage4State extends State<LoginPage4> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  Image(image: AssetImage("768px-Facebook_icon.png")),
+                  Image(
+                      image:
+                          AssetImage("assets/images/768px-Facebook_icon.png")),
                   SizedBox(width: 10.0),
                   Text(
                     "Connect with facebook",

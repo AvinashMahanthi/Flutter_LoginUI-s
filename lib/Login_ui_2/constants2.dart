@@ -78,9 +78,9 @@ Widget buildSocialbtn(Function onTap, AssetImage logo) {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: Colors.black12,
-              offset: Offset(0, 2),
-              blurRadius: 0.5,
+              color: Colors.black38,
+              offset: Offset(0, 3),
+              blurRadius: 0.7,
             )
           ],
           image: DecorationImage(

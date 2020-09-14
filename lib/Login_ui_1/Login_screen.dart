@@ -120,13 +120,13 @@ class _LoginUI1State extends State<LoginUI1> {
           _buildSocialBtn(
             () => print('Login with Facebook'),
             AssetImage(
-              'facebook.png',
+              'assets/images/facebook.png',
             ),
           ),
           _buildSocialBtn(
             () => print('Login with Google'),
             AssetImage(
-              'google.png',
+              'assets/images/google.png',
             ),
           ),
         ],

@@ -4,6 +4,8 @@ import 'package:loginui/Login_ui_3/Login3.dart';
 import 'package:loginui/Login_ui_5/LoginPage5.dart';
 import 'package:loginui/Login_ui_6/LoginPage_6.dart';
 import 'package:loginui/Login_ui_7/Login_page_7.dart';
+import 'package:loginui/Login_ui_8/Login8.dart';
+import 'package:loginui/Login_ui_9/Login9.dart';
 import 'Login_ui_4/Login4.dart';
 import 'Login_ui_2/Login2.dart';
 
@@ -48,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
             FlatButton(
               onPressed: () {
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => Login7()));
+                    .push(MaterialPageRoute(builder: (context) => Login9()));
               },
               child: Text("1st page"),
             )
@@ -59,3 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+// MaterialApp(
+// title: 'Title',
+// theme: kThemeData,
+// home: HomePage(),
+// );

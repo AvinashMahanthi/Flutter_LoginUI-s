@@ -84,19 +84,19 @@ class _LoginScreen2State extends State<LoginScreen2> {
                               buildSocialbtn(
                                 () => print('Login with google'),
                                 AssetImage(
-                                  'google.png',
+                                  'assets/images/google.png',
                                 ),
                               ),
                               buildSocialbtn(
                                 () => print('Login with Facebook'),
                                 AssetImage(
-                                  'facebook.png',
+                                  'assets/images/facebook.png',
                                 ),
                               ),
                               buildSocialbtn(
                                 () => print('Login with Twitter'),
                                 AssetImage(
-                                  'twitter.png',
+                                  'assets/images/twitter.png',
                                 ),
                               )
                             ],
