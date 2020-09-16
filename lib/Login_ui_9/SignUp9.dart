@@ -63,7 +63,7 @@ class _SignUp9State extends State<SignUp9> {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[100],
       body: Column(
         children: [
           Container(
@@ -118,7 +118,7 @@ class _SignUp9State extends State<SignUp9> {
                             color: Color(0xFF131578)),
                         child: Center(
                           child: Text(
-                            "Login",
+                            "Sign Up",
                             style:
                                 TextStyle(fontSize: 20.0, color: Colors.white),
                           ),

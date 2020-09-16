@@ -52,7 +52,7 @@ class _Login9State extends State<Login9> {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[100],
       body: Column(
         children: [
           Container(
