@@ -45,7 +45,7 @@ _getBackBtn() {
   );
 }
 
-_getBottomRow(context) {
+Widget _getBottomRow(context) {
   return Expanded(
     flex: 1,
     child: Row(
@@ -107,21 +107,11 @@ _getTextFields() {
     child: Column(
       mainAxisAlignment: MainAxisAlignment.end,
       children: <Widget>[
-        SizedBox(
-          height: 15,
-        ),
-        TextField(
-          decoration: InputDecoration(labelText: 'Email'),
-        ),
-        SizedBox(
-          height: 15,
-        ),
-        TextField(
-          decoration: InputDecoration(labelText: 'Password'),
-        ),
-        SizedBox(
-          height: 25,
-        ),
+        SizedBox(height: 15),
+        TextField(decoration: InputDecoration(labelText: 'Email')),
+        SizedBox(height: 15),
+        TextField(decoration: InputDecoration(labelText: 'Password')),
+        SizedBox(height: 25),
       ],
     ),
   );
