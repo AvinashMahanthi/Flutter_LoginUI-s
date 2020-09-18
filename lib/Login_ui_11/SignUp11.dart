@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Login11 extends StatefulWidget {
+class SignUp11 extends StatefulWidget {
   @override
-  _Login11State createState() => _Login11State();
+  _SignUp11State createState() => _SignUp11State();
 }
 
-class _Login11State extends State<Login11> {
+class _SignUp11State extends State<SignUp11> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,14 +20,12 @@ class _Login11State extends State<Login11> {
                   SizedBox(height: 20.0),
                   kbuildTF("Email"),
                   SizedBox(height: 20.0),
+                  kbuildTF("Phone number"),
+                  SizedBox(height: 20.0),
                   kbuildPasswordTF(),
                   SizedBox(height: 10.0),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [Text('forgot password?')],
-                  ),
                   SizedBox(height: 20.0),
-                  _buildLoginBtn11(),
+                  _buildSignUpBtn11(),
                   SizedBox(height: 30.0),
                   _buildSignUpTxt11(),
                 ],
@@ -47,10 +45,10 @@ Widget _buildSignUpTxt11() {
       child: RichText(
         text: TextSpan(children: [
           TextSpan(
-              text: "I'am a new user, ",
+              text: "Already an user, ",
               style: TextStyle(color: Colors.grey, fontSize: 20.0)),
           TextSpan(
-              text: "Sign Up",
+              text: "Sign In",
               style: TextStyle(color: Colors.purple, fontSize: 20.0))
         ]),
       ),
@@ -88,7 +86,7 @@ class _HeaderBackgrondState extends State<HeaderBackgrond> {
           top: 380.0,
           left: 20.0,
           child: Text(
-            "Login",
+            "Sign Up",
             style: TextStyle(
                 fontSize: 40.0,
                 fontWeight: FontWeight.bold,
@@ -99,7 +97,7 @@ class _HeaderBackgrondState extends State<HeaderBackgrond> {
           top: 200.0,
           left: 20.0,
           child: Text(
-            "Hi,There! 🤞",
+            "Welcome back",
             style: TextStyle(
                 fontSize: 40.0,
                 fontWeight: FontWeight.bold,
@@ -177,7 +175,7 @@ Widget kbuildTF(String HintText) {
   );
 }
 
-Widget _buildLoginBtn11() {
+Widget _buildSignUpBtn11() {
   return FlatButton(
     onPressed: () {},
     child: Container(
@@ -191,7 +189,7 @@ Widget _buildLoginBtn11() {
           ])),
       child: Center(
         child: Text(
-          "Login",
+          "SignUp",
           style: TextStyle(color: Colors.white, fontSize: 25.0),
         ),
       ),

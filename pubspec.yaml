@@ -33,6 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   simple_animations: ^2.2.2
+  font_awesome_flutter: ^8.8.1
   adobe_xd: ^1.0.0+1
   flutter_svg: ^0.18.1
 
