@@ -136,7 +136,7 @@ class _SignUp13State extends State<SignUp13> {
                     _buildphTf13(),
                     SizedBox(height: 30.0),
                     _buildSignUpRow(),
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 40.0),
                     GestureDetector(
                       onTap: () {
                         Navigator.pop(context);
