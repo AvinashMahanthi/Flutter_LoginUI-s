@@ -126,7 +126,7 @@ class _SignUp12State extends State<SignUp12> {
                       topLeft: Radius.circular(40.0),
                       topRight: Radius.circular(40.0))),
               child: Padding(
-                padding: EdgeInsets.only(left: 20.0),
+                padding: EdgeInsets.all(20.0),
                 child: SingleChildScrollView(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
