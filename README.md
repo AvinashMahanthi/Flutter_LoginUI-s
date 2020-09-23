@@ -1,6 +1,6 @@
 # login UI
 
-This is 21 days UI challange, where this is a self-initiated program where I stick to a habit for 21 days for learning Flutter frontend. Every day progress is been tweeted in twitter with #21DaysUIchallange.
+This is 21 days UI challange, where this is a self-initiated program where I stick to a habit for 21 days for learning Flutter frontend. Every day progress is been tweeted in twitter with #21DaysUIchallange .
 
 
 
