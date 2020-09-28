@@ -69,6 +69,23 @@ class _SignUp14State extends State<SignUp14> {
     );
   }
 
+  Widget _buildSocbtn(child) {
+    return GestureDetector(
+      onTap: () {},
+      child: Container(
+          margin: EdgeInsets.symmetric(horizontal: 10),
+          padding: EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            border: Border.all(
+              width: 2,
+              color: KPrimaryLightColor,
+            ),
+            shape: BoxShape.circle,
+          ),
+          child: child),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -128,6 +145,35 @@ class _SignUp14State extends State<SignUp14> {
                   _buildSignUpBtn(),
                   SizedBox(height: size.height * 0.03),
                   _buildOR(),
+                  Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        _buildSocbtn(
+                          SvgPicture.asset(
+                            "assets/images/facebook.svg",
+                            height: 20,
+                            width: 20,
+                          ),
+                        ),
+                        _buildSocbtn(
+                          SvgPicture.asset(
+                            "assets/images/google-plus.svg",
+                            height: 20,
+                            width: 20,
+                          ),
+                        ),
+                        _buildSocbtn(
+                          SvgPicture.asset(
+                            "assets/images/twitter.svg",
+                            height: 20,
+                            width: 20,
+                          ),
+                        ),
+                      ],
+                    ),
+                  )
                 ],
               ),
             )
