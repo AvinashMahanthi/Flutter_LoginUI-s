@@ -73,10 +73,15 @@ class _Login15State extends State<Login15> {
           children: [
             Positioned(
               bottom: 0.0,
-              child: Image(
+              child: Container(
                 height: Size.height * 0.3,
                 width: Size.width,
-                image: AssetImage("assets/images/Login!4.png"),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.fill,
+                    image: AssetImage("assets/images/Login!4.png"),
+                  ),
+                ),
               ),
             ),
             Padding(
@@ -125,7 +130,7 @@ class _Login15State extends State<Login15> {
                       ),
                     ),
                   ),
-                  SizedBox(height: 15.0),
+                  SizedBox(height: 25.0),
                   _buildSignUpTxt()
                 ],
               ),
