@@ -59,6 +59,11 @@ Day -13 Progress
 
 <img src="https://user-images.githubusercontent.com/54079190/93685885-29d22180-fad0-11ea-82be-bfd2fbb35bfd.jpg" width="23%"></img>             <img src="https://user-images.githubusercontent.com/54079190/93685888-2b9be500-fad0-11ea-935d-1eb3c090c5e7.jpg" width="23%"></img> 
 
+
+Day -14 Progress
+
+<img src="https://user-images.githubusercontent.com/54079190/94491466-f137f380-0205-11eb-8e85-f6dc0334c697.jpg" width="23%"></img> <img src="https://user-images.githubusercontent.com/54079190/94491469-f2692080-0205-11eb-87d3-b02d7de020ba.jpg" width="23%"></img> 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
