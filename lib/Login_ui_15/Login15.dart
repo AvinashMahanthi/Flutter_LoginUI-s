@@ -8,6 +8,7 @@ class Login15 extends StatefulWidget {
 class _Login15State extends State<Login15> {
   @override
   Widget build(BuildContext context) {
+    final Size = MediaQuery.of(context).size;
     return Scaffold(
       body: Container(
         child: Stack(
@@ -15,10 +16,11 @@ class _Login15State extends State<Login15> {
             Positioned(
               bottom: 0.0,
               child: Image(
-                height: MediaQuery.of(context).size.height * .3,
-                image: AssetImage("assets/images/signup14.png"),
+                height: Size.height * 0.3,
+                width: Size.width,
+                image: AssetImage("assets/images/Login!4.png"),
               ),
-            )
+            ),
           ],
         ),
       ),
