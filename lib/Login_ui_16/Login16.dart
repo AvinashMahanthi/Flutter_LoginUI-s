@@ -148,6 +148,8 @@ class _Login16State extends State<Login16> {
                       "Your's Destination is\nour Destiny",
                       style: TextStyle(
                           fontSize: 36.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.bold,
                           letterSpacing: 1.2,
                           color: Colors.white),
                     ),
