@@ -66,7 +66,10 @@ class _Login17State extends State<Login17> {
         elevation: 0.0,
         leading: IconButton(
           onPressed: () {},
-          icon: Icon(Icons.arrow_back),
+          icon: Icon(
+            Icons.arrow_back,
+            color: Colors.grey,
+          ),
         ),
       ),
       body: SingleChildScrollView(
@@ -76,6 +79,7 @@ class _Login17State extends State<Login17> {
               height: 250.0,
               child: SvgPicture.asset("assets/images/Login17.svg"),
             ),
+            SizedBox(height: 30.0),
             Container(
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
@@ -86,7 +90,7 @@ class _Login17State extends State<Login17> {
                 ),
                 child: Column(
                   children: [
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 50.0),
                     Text(
                       "SignIn",
                       style: TextStyle(
@@ -95,13 +99,13 @@ class _Login17State extends State<Login17> {
                       ),
                     ),
                     Padding(
-                        padding: const EdgeInsets.all(20.0),
+                        padding: const EdgeInsets.all(30.0),
                         child: Column(
                           children: [
                             _buildTextField("Email Address", false),
                             SizedBox(height: 20.0),
                             _buildTextField("Password", true),
-                            SizedBox(height: 10.0),
+                            SizedBox(height: 15.0),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [Text("forget password?")],
@@ -124,7 +128,8 @@ class _Login17State extends State<Login17> {
                               ),
                             ),
                             SizedBox(height: 40.0),
-                            _buildSignUpTxt()
+                            _buildSignUpTxt(),
+                            SizedBox(height: 70.0),
                           ],
                         ))
                   ],
