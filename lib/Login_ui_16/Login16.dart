@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:loginui/Login_ui_16/SignUp16.dart';
+import 'package:loginui/Login_ui_17/SignUp.dart';
 
 class Login16 extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _Login16State extends State<Login16> {
     return GestureDetector(
       onTap: () {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => SignUp16()));
+            context, MaterialPageRoute(builder: (context) => Signup17()));
       },
       child: RichText(
         text: TextSpan(children: [
