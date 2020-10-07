@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginui/Login_ui_18/Login18.dart';
+import 'package:loginui/Login_ui_20/Login20.dart';
 import 'package:loginui/Login_ui_19/WelcomePage.dart';
 
 void main() {
@@ -43,8 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             FlatButton(
               onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => WelcomeScreen19()));
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => Login20()));
               },
               child: Text("1st page"),
             )
